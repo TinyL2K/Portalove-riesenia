@@ -136,7 +136,6 @@ https://templatemo.com/tm-551-stand-blog
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-4"></div>
-                            <div class="col-lg-4 col-md-4 col-sm-4"></div>
                         </div>
                         <a style="color:orange" href="post-details.php"><h4 class="font-weight-bold mb-3"><strong>><?php echo $postItem['title']; ?></strong></h4></a>
                         <div class="container">
@@ -145,7 +144,7 @@ https://templatemo.com/tm-551-stand-blog
                                 <p class="text-uppercase margin-bottom-10"><?php echo $postItem['date'] ?></p>
                             </div>
                             <div class="container">
-                                <p class="gray-text tours-1-description"><?php echo $postItem['content'] ?></p>
+                                <p class="gray-text"><?php echo $postItem['content'] ?></p>
                             </div>
                         </div>
                         </div>
